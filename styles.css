@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+h1 {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(233, 66, 66);
+}
+
+header {
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header > img {
+  height: 70px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 65px;
+  font-weight:;
+  font-family: Impact;
+}
+/* ------------------------------------------------- */
+article {
+  height: 75%;
+  border: solid 3px yellow;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 300px;
+}
+
+/* ----------------------------------- */
+
+.card-trainer {
+  border: solid 3px black;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100;
+
+  padding-right: 7%;
+}
+/* .card-trainer > section {
+  border: dotted 4px purple;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 10px 0 30px;
+  /* padding: 3px 2px 6px 2px; */
+
+.section-card {
+  border: solid 2px purple;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* padding: 0px 60px 0px 60px; */
+  /* padding-right: 7%; */
+  padding-left: 8%;
+  width: 100;
+  /* por algum motivo 100% n vai, mas so 100 encaixa */
+}
+
+.cards-topo {
+  background-color: gray;
+  width: 100%;
+  height: 57px;
+}
+
+.cards-meio {
+  /* border: solid 2x orange; */
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: end; */
+  gap: 20px;
+  /* width: 100%; */
+}
+
+.cards-meio-esquerda {
+  background-color: gray;
+  width: 55%;
+}
+
+.cards-meio-direita {
+  background-color: gray;
+  width: 45%;
+
+  height: 400px;
+}
+
+.section-cards-baixo {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 3%;
+}
+
+.cards-baixo {
+  background-color: rgb(196, 196, 196);
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  width: 100;
+  height: 100;
+}
+background-color: ;/* -------------BADGES-------------------- */
+
+.cards-baixo div {
+  height: 50px;
+}
+.cards-baixo img {
+  height: 100%;
+}
+
+/* -------------BADGES-------------------- */
+/* ----------------------------------- */
+
+footer {
+  border: solid 3px blue;
+  height: 100px;
+  background-color: rgb(82, 159, 67);
+  width: 100%;
+}
