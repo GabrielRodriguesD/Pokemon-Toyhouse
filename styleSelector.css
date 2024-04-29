@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+h1 {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(233, 66, 66);
+}
+
+body>header {
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+body>header > img {
+  height: 70px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 65px;
+  font-weight:;
+  font-family: Impact;
+}
+/* ------------------------------------------------- */
+article {
+  height: 75%;
+  border: solid 3px #dad94b;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 300px;
+}
+
+/* ----------------------------------- */
+
